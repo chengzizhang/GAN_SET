@@ -48,7 +48,7 @@ parser.add_argument('--mlp_D', action='store_true', help='use MLP for D')
 parser.add_argument('--n_extra_layers', type=int, default=0, help='Number of extra layers on gen and disc')
 parser.add_argument('--experiment', default=None, help='Where to store samples and models')
 parser.add_argument('--adam', action='store_true', help='Whether to use adam (default is rmsprop)')
-parser.add_argument('--nSnapshot', type=int, default=5, help='how many snapshots to keep')
+parser.add_argument('--nSnapshot', type=int, default=3, help='how many snapshots to keep')
 opt = parser.parse_args()
 print(opt)
 
